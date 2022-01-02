@@ -1,0 +1,22 @@
+{
+    "sample":[
+        {
+            "id": 1,
+            "question":
+              "I am Question 1 ",
+            "hint": "Hint is yet to be descide "
+          },
+          {
+            "id": 2,
+            "question":
+              "I am Question 2",
+            "hint": "'Its always been there in your maths testbook also 9 std textbook has its picture on it "
+          },
+          {
+            "id": 3,
+            "question":
+              "I am Question 3",
+            "hint": "'Hint is yet to be descide '"
+          }
+    ]
+}

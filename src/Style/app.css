@@ -2,8 +2,14 @@
 
 body {
   background-color: #c8d0d2;
-  margin : 0;
+  margin: 0;
 }
+.app {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .card {
   display: flex;
   justify-content: center;
@@ -20,6 +26,7 @@ body {
     translateY(var(--translate-y, 0));
   /* //for 3d look  */
   transform-style: preserve-3d;
+  flex-direction: column;
 }
 .card.flip {
   --rotate-y: 180deg;
@@ -28,6 +35,10 @@ body {
 .card :hover {
   --translate-y: -2px;
   box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card .front {
+  left: 0;
 }
 
 .card .front,

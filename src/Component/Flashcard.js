@@ -9,7 +9,7 @@ export default function Flashcard({flashcard}) {
 {flashcard.question}
 </div>
 <div className='back'>
-{flashcard.Hint}
+{flashcard.hint}
 </div>
             {/* {flip ? flashcard.Hint :flashcard.question} */}
         </div>
