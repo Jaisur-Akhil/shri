@@ -27,26 +27,26 @@ function App() {
   );
 }
 
-const Sample_flashcards = [
-  {
-    id: 6,
-    question:
-      'What is red and has a tail above , 1st aplhabet in your Alphabet books ',
-    hint: 'Hint is yet to be descide ',
-  },
-  {
-    id: 7,
-    question:
-      'What is so colorful and also famed up mix, Its impossible to solve every face at once .  ',
-    hint: 'Its always been there in your maths testbook also 9 std textbook has its picture on it ',
-  },
-  {
-    id: 8,
-    question:
-      'Some thing which is missing dial and something which now has screens',
-    hint: 'Hint is yet to be descide ',
-  },
-];
-console.log(Sample_flashcards);
+// const Sample_flashcards = [
+//   {
+//     id: 6,
+//     question:
+//       'What is red and has a tail above , 1st aplhabet in your Alphabet books ',
+//     hint: 'Hint is yet to be descide ',
+//   },
+//   {
+//     id: 7,
+//     question:
+//       'What is so colorful and also famed up mix, Its impossible to solve every face at once .  ',
+//     hint: 'Its always been there in your maths testbook also 9 std textbook has its picture on it ',
+//   },
+//   {
+//     id: 8,
+//     question:
+//       'Some thing which is missing dial and something which now has screens',
+//     hint: 'Hint is yet to be descide ',
+//   },
+// ];
+// console.log(Sample_flashcards);
 
 export default App;
