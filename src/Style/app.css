@@ -3,6 +3,7 @@
 body {
   background-color: #12a4d9;
   margin-top: 50px;
+  width: 100%;
 }
 .app {
   display: flex;

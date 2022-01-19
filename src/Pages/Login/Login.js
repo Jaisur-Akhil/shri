@@ -1,16 +1,22 @@
 /** @format */
 
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+
+
 import './login.css';
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
+  const navigate = useNavigate();
+
   const handleSubmit = () => {
-    if (setUsername == 'shri' && setPassword == 'password') {
-      alert(
-        `your values are password is  ${setPassword} and username is ${setUsername}  `
-      );
+    if (username === 'shri' && password === '123') {
+      navigate('/qa');
+    }
+    else{
+      navigate('/error')
     }
   };
   const hunchange = (e) => {
@@ -26,9 +32,13 @@ const Login = () => {
       <div class='wrapper'>
         <div class='logo'>
           {' '}
-          <img src='#shri Image' alt='' />{' '}
+          <img src='shri.jpeg' alt='' />{' '}
         </div>
-        <div class='text-center mt-4 name'> Shrikant Arts </div>
+        <br />
+        <br />
+        <div class='text-center mt-4 name'>" Shrikant Arts "</div>
+        <br />
+        <br />
         <form class='p-3 mt-3' onSubmit={handleSubmit}>
           <div class='form-field d-flex align-items-center'>
             {' '}
